@@ -5,11 +5,9 @@ const Header = () => {
     return (
         <>
             <div className="navbar bg-base-300">
-                <a className="btn btn-ghost normal-case text-xl">Firebase-Tailwind</a>
-                <div className=' flex justify-end btn btn-ghost normal-case text-xl'>
-                    <Link to='/login'>Login</Link>
-                    
-                </div>
+                <Link to='/' className="normal-case text-xl px-3">Firebase-Tailwind</Link>
+                <Link to='/' className='norma-case text-xl px-3'>Home</Link>
+                <Link to='/login' className='norma-case text-xl px-3'>Login</Link>
             </div>
         </>
     );
