@@ -23,7 +23,7 @@ const Header = () => {
                 <Link to='/orders' className='norma-case text-xl px-3'>Orders</Link>
                 {
                     user &&
-                    <Link to='/deshbord' className='norma-case text-xl px-3'>Dashbord</Link>
+                    <Link to='/dashboard' className='norma-case text-xl px-3'>Dashboard</Link>
                 }
                 <Link to='/login' className='norma-case text-xl px-3'>Login</Link>
                 {
